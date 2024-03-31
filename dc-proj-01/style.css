@@ -19,6 +19,10 @@ header {
     margin-right: 23px;
 }
 
+.link-header:hover {
+    color: black;
+}
+
 .button-header {
     background-color: #665ae1;
     border-radius: 20.5px;
