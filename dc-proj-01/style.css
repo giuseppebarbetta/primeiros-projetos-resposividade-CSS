@@ -94,6 +94,40 @@ p {
     margin-left: 24px;
 }
 
+@media (max-width: 850px) {
+    header {
+        margin: 44px 0 53px 53px;
+    }
+    .logo-image {
+        width: 65%;
+        height: 390px;
+        margin: 0 35px;
+    }
+    section {
+        margin-left: 53px;
+    }
+    h1 {
+        font-size: 62px;
+        margin: 0;
+    }
+    h2 {
+        font-size: 53px;
+        margin: 0;
+    }
+    p {
+        font-size: 17px;
+        margin: 0;
+        width: 70%;
+    }
+    .button-main {
+        width: 180px;
+        height: 53px;
+        font-size: 20px;
+        margin: 26px 0;
+    }
+
+}
+
 @media (max-width: 435px) {
     header {
         display: none;
