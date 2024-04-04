@@ -40,7 +40,7 @@ p {
     font-style: normal;
     line-height: 48px; /* 171.429% */
     width: 548px;
-    margin: 25px 0;
+    margin: 25px 0 17px 0;
 }
 
 button {
@@ -134,14 +134,16 @@ img {
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        height: 50vh;
+        min-height: 50vh;
         margin-top: 0;
     }
 
     .container-right {
         display: flex;
-        height: 50vh;
         width: 100%;
+        min-height: 50vh;
+        height: 100%;
+        padding: 26px 0;
     }
 
     h1 {
@@ -160,10 +162,10 @@ img {
     }
 
     button {
-        width: 305px;
-        height: 80px;
+        width: 170px;
+        height: 53px;
         text-align: center;
-        font-size: 35px;
+        font-size: 28px;
         line-height: normal;
         margin: 0;
     }
@@ -175,9 +177,20 @@ img {
     img {
         display: block;
         margin: auto;
-        position: static;
-        width: 375px;
-        height: 438px;
+        width: 245px;
+        height: 305px;
+    }
+}
+
+@media (max-width: 650px) {
+    p {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    button {
+        width: 206px;
+        height: 53px;
+        font-size: 26px;
     }
 }
 
